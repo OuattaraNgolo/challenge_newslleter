@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,500;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -24,11 +26,12 @@ body{
 }
 h1{
     color:#262a45 ;
-    font-size: 47px;
+    font-size: 51px;
     text-transform: capitalize;
     font-weight: bold;
     color:rgba(0, 0, 0, 0.8);
     margin-bottom: 16px;
+    font-family: "Roboto";
 }
 p{
     color: rgba(0, 0, 0, 0.4);
@@ -67,16 +70,15 @@ input{
     margin-bottom: 28px;
 }
 input[type="submit"]{
-   background-color: #262a45;  
+    background: linear-gradient(to right, #ff5476,#ff673e);
    color: #fff;
    font-size: 14px;
     font-weight: bold;
-    caret-color:red ;
     text-transform: capitalize;
     margin-bottom: 0;
 }
 input[type="submit"]:hover{
-    background-color: #fff;  
+    background-color: #262a45;   
  }
  img{
     position: relative;
@@ -85,3 +87,4 @@ input[type="submit"]:hover{
     bottom: 0;
    
  }
+
