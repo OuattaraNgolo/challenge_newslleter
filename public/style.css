@@ -34,9 +34,7 @@ h1{
     font-family: "Roboto";
 }
 p{
-    color: rgba(0, 0, 0, 0.4);
-    font-size: 17px;
-    
+    font-size: 18px;
 }
 label{
    font-weight: bold;
@@ -68,17 +66,19 @@ input{
     width: 80%;
     border-radius: 8px;
     margin-bottom: 28px;
+    border: 2px solid #000;
 }
 input[type="submit"]{
-    background: linear-gradient(to right, #ff5476,#ff673e);
+    background-color: #262a45; 
    color: #fff;
    font-size: 14px;
     font-weight: bold;
     text-transform: capitalize;
     margin-bottom: 0;
+    border:none;
 }
 input[type="submit"]:hover{
-    background-color: #262a45;   
+    background: linear-gradient(to right, #ff5476, #ff673e);
  }
  img{
     position: relative;
@@ -87,4 +87,165 @@ input[type="submit"]:hover{
     bottom: 0;
    
  }
+ /*STYLE CONFIRMATION*/
+ .container-2{
+    background-color: #fff;
+    margin: 0 auto;
+    width: 29%;
+    padding: 15px;
+    border-radius: 25px;
+    position: relative;
+    top: 70px;
+    display: flex;
+ }
+ .center{
+    display: block;
+    padding:5% ;
+ }
+ .center h1{
+    font-weight: 900;
+    font-family: "Roboto";
+ }
+ .center .p{
+    margin-bottom: 25px;
+    line-height: 28px;
+    color: #000;
+ }
 
+ .center img{
+    margin-bottom: 25px;
+ }
+ #input-2{
+    width: 100%;
+    background-color: #262a45;
+ }
+ #input-2:hover {
+    background: linear-gradient(to right, #ff5476, #ff673e);
+}
+
+/*RESPONSIBLE index*/
+/* tablette*/
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column; /* Change l'ordre d'apparition */
+    }
+
+    .contenu-image {
+        order: 1; 
+        
+    }
+    .contenu-image img {
+        width: 100%;
+       
+    }
+
+    .contenu-form {
+        order: 2;
+        width: 100%;
+    }
+
+    h1 {
+        /* font-size: 20px; */
+        width: 53vw;
+    }
+
+    ul li {
+        width: 50vw;
+    }
+
+    p {
+        width: 50vw;
+    }
+
+    input {
+        width: 50vw;
+    }
+}
+
+
+/* Styles pour les écrans de petite taille (mobiles) */
+@media (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column; /* Change l'ordre d'apparition */
+    }
+
+    .contenu-image {
+        order: 1; 
+        
+    }
+    .contenu-image img {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .contenu-form {
+        order: 2;
+        width: 100%;
+    }
+
+    h1 {
+        /* font-size: 20px; */
+        width: 53vw;
+    }
+
+    ul li {
+        width: 50vw;
+    }
+
+    p {
+        width: 50vw;
+    }
+
+    input {
+        width: 50vw;
+    }
+}
+/*RESPOSIBLE INDEX2*/
+
+ /* tablette*/
+@media (max-width: 1200px) {
+    .center h1{
+        font-size: 40px;
+    }
+    form{
+        margin-top: 35%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .center h1{
+        font-size: 40px;
+    }
+    form{
+        margin-top: 35%;
+    }
+
+}
+
+/* Styles pour les écrans de petite taille (mobiles) */
+/* @media (max-width: 600px) {
+  
+
+    h1 {
+        font-size: 30px;
+        width: 53vw;
+    }
+
+    ul li {
+        width: 30vw;
+    }
+
+    p {
+        width: 30vw;
+        font-size: 15px;
+    }
+
+}
+
+
+
+ 
+  */

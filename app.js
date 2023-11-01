@@ -12,5 +12,10 @@ app.get('/',(req,res)=>{
    res.status(200).render('index')
 })
 
+app.get('/confirmation',(req,res)=>{
+   res.status(200).render('index2')
+})
+
+
 app.listen(3000);
 console.log('Le serveur est prêt...');
